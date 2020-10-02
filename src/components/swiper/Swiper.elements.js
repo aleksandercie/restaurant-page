@@ -7,11 +7,8 @@ export const Motion = styled(motion.div)`
 
 export const Slide = styled.div`
 position: relative;
-height: 94vh;
-@media (max-width: 992px) {
-    width: 100%;
-    height: auto;
-  }
+height: auto;
+width: 100%;
 `
 export const Image = styled.img`
   height: 100%;

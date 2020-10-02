@@ -58,9 +58,6 @@ export const ContentBox = styled.div`
 margin: 0 20px;
 width: 50%;
 color: #222;
-@media (max-width: 992px) {
-    margin: 15px 20px 0;
-  }
 `
 export const Name = styled.h4`
 font-size: 2rem;
@@ -76,8 +73,22 @@ export const Price = styled.p`
 margin: 25px 0;
 font-size: 2.2rem;
 @media (max-width: 992px) {
-  margin: 25px 0 5px;
+  margin: 15px 0 0 0;
   }
+`
+
+export const CartBox = styled.div`
+display: flex;
+opacity: 0;
+transition: all 0.3s ease;
+@media (max-width: 992px) {
+  width: 50%;
+  margin: 5px 0;
+  }
+`
+export const IconCart = styled(CartCheck)`
+width: 20px;
+color: #e64215;
 `
 export const ButtonBox = styled.div`
 margin: 0 20px;
@@ -86,28 +97,9 @@ display: flex;
 justify-content: center;
 align-items: center;
 @media (max-width: 992px) {
-    margin: 15px 20px;
-    width: 100%;
+  margin: 10px 20px;
   }
-  @media (max-width: 700px) {
-    margin: 5px 20px;
-  }
-`
-export const CartBox = styled.div`
-display: flex;
-opacity: 0;
-transition: all 0.3s ease;
-@media (max-width: 992px) {
-  margin: 0 20px;
-width: 50%;
-  }
-`
-export const IconCart = styled(CartCheck)`
-width: 20px;
-color: #e64215;
-@media (max-width: 992px) {
-margin-bottom: 15px;
-  }
+
 `
 export const Button = styled.button`
 width: 40%;
