@@ -62,7 +62,7 @@ border-radius: 15px;
 @media (max-width: 992px) {
     width: 100%;
     max-width: 100%;
-    height: auto;
+    max-height: 300px;
   }
 `
 export const IconPhone= styled(Phone)`
