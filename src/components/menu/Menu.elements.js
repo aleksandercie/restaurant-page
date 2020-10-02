@@ -88,6 +88,8 @@ transition: all 0.3s ease;
 `
 export const IconCart = styled(CartCheck)`
 width: 20px;
+height: 20px;
+margin: 0;
 color: #e64215;
 `
 export const ButtonBox = styled.div`
