@@ -1,0 +1,36 @@
+.DayPickerInput input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    color: #222;
+    transition: all 0.5s ease;
+    box-sizing: border-box;
+}
+
+.DayPickerInput input::placeholder {
+    text-transform: lowercase;
+    color: #222;
+}
+
+.DayPickerInput input:focus {
+    color: #222;
+    outline-color: #e64215;
+}
+
+.DayPicker {
+    display: inline-block;
+    font-size: 1.7rem;
+}
+.DayPicker-Day--today {
+    color: #e64215;
+  }
+  .DayPicker-Day--selected {
+    color: #fff;
+    background-color: #e64215;
+  }
+  @media(max-width: 500px){
+    .DayPickerInput input {
+        width: 250px;
+    }
+  }

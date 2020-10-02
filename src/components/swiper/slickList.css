@@ -1,0 +1,29 @@
+
+.slick-list{
+    background-color: #222222;
+}
+.slick-dots{
+    bottom: 10%;
+
+}
+.slick-dots li button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slick-dots li button:before{
+    font-size: 2rem;
+    opacity: 0.4;
+    transition: all 0.5s ease; 
+    color: #fff;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #e64215;
+}
+@media(max-width: 500px){
+    .slick-dots li button:before{
+        font-size: 1.6rem;
+    }
+}
