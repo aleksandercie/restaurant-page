@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 
 export const Motion = styled(motion.div)`
 background: #fff;
+overflow-x: hidden;
 `
 
 export const AboutBox = styled.div`

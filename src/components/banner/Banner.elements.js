@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const BannerBox = styled.div`
 width: 100%;
 position: relative;
-
+overflow-x: hidden;
 `
 
 export const Image = styled.img`

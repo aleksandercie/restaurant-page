@@ -22,7 +22,8 @@ export const NavbarContainer = styled.ul`
     justify-content: flex-start;
   }
   @media (max-width: 500px) {
-  width: 100%;
+  width: 220px;
+  padding-left: 10px;
   }
 `
 export const NavbarItem = styled(NavLink)`

@@ -8,19 +8,13 @@ import {EmailOutline} from '@styled-icons/evaicons-outline/EmailOutline';
 import {Address} from '@styled-icons/entypo/Address';
 
 export const Wrapper = styled.div`
-height: 24vh;
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
-padding: 10px 0;
+padding: 30px 0;
+overflow-x: hidden;
 background-color: #222222;
 color: #fff;
-@media(max-width: 1200px){
-    height: 34vh;
-}
-@media(max-width: 720px){
-    height: 48vh;
-}
 
 `
 export const Box = styled.div`

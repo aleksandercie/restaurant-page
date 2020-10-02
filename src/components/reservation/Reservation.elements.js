@@ -4,6 +4,7 @@ import ReactSelect from 'react-select';
 
 export const Motion = styled(motion.div)`
 background: #fff;
+overflow-x: hidden;
 `
 export const Wrapper = styled.div`
 width: 70%;

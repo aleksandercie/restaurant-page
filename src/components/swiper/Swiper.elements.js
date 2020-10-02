@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
 export const Motion = styled(motion.div)`
-
+ overflow-x: hidden;
 `
 
 export const Slide = styled.div`

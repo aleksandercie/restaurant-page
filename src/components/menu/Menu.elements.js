@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 
 export const Motion = styled(motion.div)`
 background: #fff;
+overflow-x: hidden;
 `
 
 export const Wrapper = styled.div`
@@ -74,6 +75,9 @@ font-size: 1.6rem;
 export const Price = styled.p`
 margin: 25px 0;
 font-size: 2.2rem;
+@media (max-width: 992px) {
+  margin: 25px 0 5px;
+  }
 `
 export const ButtonBox = styled.div`
 margin: 0 20px;
@@ -84,6 +88,9 @@ align-items: center;
 @media (max-width: 992px) {
     margin: 15px 20px;
     width: 100%;
+  }
+  @media (max-width: 700px) {
+    margin: 5px 20px;
   }
 `
 export const CartBox = styled.div`

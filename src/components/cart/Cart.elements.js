@@ -7,6 +7,7 @@ import {Cross} from '@styled-icons/entypo/Cross';
 
 export const Motion = styled(motion.div)`
 background: #fff;
+overflow-x: hidden;
 `
 export const Wrapper = styled.div`
 width: 80%;
