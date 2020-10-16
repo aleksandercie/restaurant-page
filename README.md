@@ -4,7 +4,8 @@
 ## Technologies
 
 Project is created with:
-* ReactJs
+* react.js
+* redux
 * styled-components
 * react-router
 * react-slick
